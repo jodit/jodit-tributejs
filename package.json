@@ -1,0 +1,19 @@
+{
+  "name": "jodit-tributejs",
+  "version": "1.0.0",
+  "description": "tributejs and Jodit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jodit",
+    "tributejs"
+  ],
+  "author": "Chupurnov <chupurnov@gmail.com> (https://xdsoft.net/)",
+  "license": "MIT",
+  "dependencies": {
+    "jodit": "^3.1.76",
+    "tributejs": "^3.2.0"
+  }
+}
