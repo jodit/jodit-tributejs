@@ -1,9 +1,11 @@
 {
   "name": "jodit-tributejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tributejs and Jodit",
   "main": "index.js",
   "scripts": {
+    "newversion": "npm version patch --no-git-tag-version && npm run github && npm publish ./",
+    "github": "git add --all  && git commit -m \"New version %npm_package_version%. Read more https://github.com/jodit/jodit-tributejs/releases/tag/%npm_package_version% \" && git tag %npm_package_version% && git push --tags origin HEAD:master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
