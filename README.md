@@ -11,12 +11,12 @@ In page
 ```html
 <!-- Jodit -->
 <link rel="stylesheet" href="../node_modules/jodit/build/jodit.min.css">
-<script src="../node_modules/jodit/build/jodit.min.js"></script>
+<script src="./node_modules/jodit/build/jodit.min.js"></script>
 <!-- TributeJS  -->
 <link rel="stylesheet" href="../node_modules/tributejs/dist/tribute.css">
-<script src="../node_modules/tributejs/dist/tribute.min.js"></script>
+<script src="./node_modules/tributejs/dist/tribute.min.js"></script>
 <!-- plugin -->
-<script src="../index.js"></script>
+<script src="./node_modules/jodit-tributejs/index.js"></script>
 ```
 
 And simple init Jodit
